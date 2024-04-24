@@ -7,7 +7,7 @@ services:
       - "5225:80"
     volumes:
       - nextcloud_data:/var/www/html/data
-    enviroment:
+    environment:
       - MYSQL_HOST=db
       - MYSQL_DATABASE=nextcloud
       - MYSQL_USER=nextcloud
