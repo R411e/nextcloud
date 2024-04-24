@@ -13,7 +13,6 @@ services:
       - MYSQL_USER=nextcloud
       - MYSQL_PASSWORD=nextcloud
 
-
   db:
     image: mariadb
     environment:
